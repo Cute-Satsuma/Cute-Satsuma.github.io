@@ -1,0 +1,41 @@
+{
+  "slug": "qr-scan-caju",
+  "published": true,
+  "sort": 3,
+  "category": "tool",
+  "name": {
+    "zh": "扫码 Caju",
+    "en": "QR Scan Caju"
+  },
+  "tagline": {
+    "zh": "扫码、识码、生成二维码。",
+    "en": "Scan QR and barcodes, or create a code."
+  },
+  "description": {
+    "zh": "可用相机或相册扫描二维码和条码，也能为文本、链接、Wi-Fi、电话和邮箱生成二维码。历史记录留在本机。",
+    "en": "Scan QR and barcodes with the camera or from your album. Create codes for text, URL, Wi-Fi, phone and email. History stays on this device."
+  },
+  "highlights": {
+    "zh": [
+      "相机或相册扫码",
+      "生成常用类型的二维码",
+      "历史只留在本机"
+    ],
+    "en": [
+      "Scan with camera or album",
+      "Create common QR types",
+      "History stays on the device"
+    ]
+  },
+  "iconUrl": "/products/qr-scan-caju/icon.png",
+  "screenshots": [],
+  "privacyUrl": "https://cute-satsuma.github.io/privacy/qr-scan-caju/",
+  "landingUrl": "https://cute-satsuma.github.io/qr_scanner/",
+  "githubUrl": "https://github.com/Cute-Satsuma/qr_scanner",
+  "platforms": [
+    {
+      "platform": "android",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.bytemyth.qr_scanner"
+    }
+  ]
+}

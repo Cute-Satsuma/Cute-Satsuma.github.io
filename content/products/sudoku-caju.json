@@ -1,0 +1,50 @@
+{
+  "slug": "sudoku-caju",
+  "published": true,
+  "sort": 2,
+  "category": "game",
+  "name": {
+    "zh": "数独 Caju",
+    "en": "Sudoku Caju"
+  },
+  "tagline": {
+    "zh": "单机数独，进度留在本机。",
+    "en": "A single-player sudoku. Progress stays on your device."
+  },
+  "description": {
+    "zh": "核心玩法在设备本地完成。当前版本不需要账号，也不会为了运行游戏去收集姓名或电话。",
+    "en": "Core play runs on your device. This version does not require an account and does not collect your name or phone number to run the game."
+  },
+  "highlights": {
+    "zh": [
+      "单机解谜",
+      "进度默认只存在本机",
+      "不需要账号"
+    ],
+    "en": [
+      "Single-player puzzles",
+      "Progress stays on the device by default",
+      "No account required"
+    ]
+  },
+  "iconUrl": "/products/sudoku-caju/icon.png",
+  "screenshots": [
+    "/products/sudoku-caju/screen-1.png",
+    "/products/sudoku-caju/screen-2.png"
+  ],
+  "privacyUrl": "https://cute-satsuma.github.io/privacy/sudoku-caju/",
+  "githubUrl": "https://github.com/Cute-Satsuma/game_sudoku",
+  "platforms": [
+    {
+      "platform": "web",
+      "version": "1.0.2",
+      "webUrl": "https://cute-satsuma.github.io/game_sudoku/app/"
+    },
+    {
+      "platform": "android",
+      "version": "1.2.1",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.bytemyth.game_sudoku",
+      "downloadUrl": "https://github.com/Cute-Satsuma/game_sudoku/releases/latest/download/sudoku-caju-android.apk"
+    }
+  ]
+}

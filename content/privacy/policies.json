@@ -1,0 +1,60 @@
+[
+  {
+    "slug": "db-meter-caju",
+    "productSlug": "db-meter-caju",
+    "title": {
+      "zh": "分贝仪 Caju 隐私政策",
+      "en": "dB Meter Caju Privacy Policy"
+    },
+    "updated": {
+      "zh": "2026年2月1日",
+      "en": "February 1, 2026"
+    }
+  },
+  {
+    "slug": "sudoku-caju",
+    "productSlug": "sudoku-caju",
+    "title": {
+      "zh": "数独 Caju 隐私政策",
+      "en": "Sudoku Caju Privacy Policy"
+    },
+    "updated": {
+      "zh": "2026年8月",
+      "en": "August 2026"
+    }
+  },
+  {
+    "slug": "qr-scan-caju",
+    "productSlug": "qr-scan-caju",
+    "title": {
+      "zh": "扫码 Caju 隐私政策",
+      "en": "QR Scan Caju Privacy Policy"
+    },
+    "updated": {
+      "zh": "2026年8月23日",
+      "en": "August 23, 2026"
+    }
+  },
+  {
+    "slug": "gms-caju",
+    "title": {
+      "zh": "谷歌框架 Caju 隐私政策",
+      "en": "GMS Caju Privacy Policy"
+    },
+    "updated": {
+      "zh": "2026年9月1日",
+      "en": "September 1, 2026"
+    }
+  },
+  {
+    "slug": "proxy-caju",
+    "title": {
+      "zh": "代理 Caju 隐私政策",
+      "en": "Proxy Caju Privacy Policy"
+    },
+    "updated": {
+      "zh": "2026年9月1日",
+      "en": "September 1, 2026"
+    }
+  }
+]

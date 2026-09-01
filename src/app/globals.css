@@ -1,0 +1,215 @@
+@import "tailwindcss";
+
+:root {
+  --caju: #e85d18;
+  --caju-dark: #b83b08;
+  --cream: #fffaf4;
+  --ink: #302019;
+  --muted: #78645b;
+  --card: #ffffff;
+  --line: #eadfd5;
+  --sun: #ffc85a;
+  --leaf: #3f7d59;
+}
+
+@theme inline {
+  --color-caju: var(--caju);
+  --color-caju-dark: var(--caju-dark);
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-card: var(--card);
+  --color-line: var(--line);
+  --color-sun: var(--sun);
+  --color-leaf: var(--leaf);
+  --font-sans: ui-sans-serif, system-ui, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+}
+
+html {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  letter-spacing: -0.01em;
+  background-image:
+    radial-gradient(circle at 8% 12%, rgba(255, 200, 90, 0.13), transparent 24rem),
+    radial-gradient(circle at 92% 38%, rgba(232, 93, 24, 0.08), transparent 28rem);
+  background-attachment: fixed;
+}
+
+html:not([lang^="zh"]) .lang-zh {
+  display: none;
+}
+
+html[lang^="zh"] .lang-en {
+  display: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(232, 93, 24, 0.38);
+  outline-offset: 3px;
+}
+
+img {
+  display: block;
+}
+
+::selection {
+  color: white;
+  background: var(--caju);
+}
+
+.display-title {
+  font-family: Georgia, "Noto Serif SC", "Songti SC", serif;
+  letter-spacing: -0.045em;
+}
+
+.soft-grid {
+  background-image:
+    linear-gradient(rgba(62, 39, 35, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(62, 39, 35, 0.045) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.prose-card {
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 16px 45px rgba(67, 41, 28, 0.06);
+  backdrop-filter: blur(12px);
+}
+
+.caju-action {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid rgba(232, 93, 24, 0.48);
+  color: #fffaf4;
+  background: #35221b;
+  box-shadow:
+    0 4px 10px rgba(48, 32, 25, 0.14),
+    0 0 0 1px rgba(232, 93, 24, 0.08);
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    background-color 180ms ease;
+}
+
+.caju-action:hover {
+  border-color: rgba(232, 93, 24, 0.78);
+  color: white;
+  background: #402920;
+  box-shadow:
+    0 5px 12px rgba(48, 32, 25, 0.17),
+    0 0 0 2px rgba(232, 93, 24, 0.10);
+}
+
+.caju-action::before {
+  position: absolute;
+  inset: 0 14% auto;
+  height: 2px;
+  content: "";
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 200, 90, 0.96),
+    rgba(255, 242, 208, 0.88),
+    transparent
+  );
+}
+
+.caju-action:active,
+.caju-action[aria-pressed="true"] {
+  background: #291914;
+  box-shadow: 0 2px 5px rgba(48, 32, 25, 0.14);
+}
+
+.caju-action--quiet {
+  border-color: rgba(232, 93, 24, 0.34);
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 2px 7px rgba(67, 41, 28, 0.06);
+  backdrop-filter: blur(10px);
+}
+
+.caju-action--quiet::before {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(232, 93, 24, 0.62),
+    rgba(255, 200, 90, 0.55),
+    transparent
+  );
+}
+
+.caju-action--quiet:hover {
+  border-color: rgba(232, 93, 24, 0.68);
+  color: var(--caju-dark);
+  background: white;
+  box-shadow:
+    0 3px 9px rgba(67, 41, 28, 0.08),
+    0 0 0 2px rgba(232, 93, 24, 0.06);
+}
+
+.policy-body h2 {
+  color: var(--ink);
+  font-size: 1.15rem;
+  margin: 1.75rem 0 0.5rem;
+}
+
+.policy-body p {
+  margin: 0 0 0.85rem;
+}
+
+.policy-body ul {
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+}
+
+.policy-body li {
+  margin-bottom: 0.45rem;
+}
+
+.policy-body .contact {
+  background: #fff0df;
+  padding: 1rem 1.1rem;
+  border-radius: 16px;
+  margin-top: 1.5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .lift {
+    transition:
+      transform 220ms ease,
+      box-shadow 220ms ease,
+      border-color 220ms ease;
+  }
+
+  .lift:hover {
+    transform: translateY(-5px);
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "db-meter-caju",
+  "published": true,
+  "sort": 1,
+  "category": "tool",
+  "name": {
+    "zh": "分贝仪 Caju",
+    "en": "dB Meter Caju"
+  },
+  "tagline": {
+    "zh": "测环境噪音的分贝仪与噪音计。",
+    "en": "A sound meter for everyday noise in dB."
+  },
+  "description": {
+    "zh": "纸面风格界面，实时显示分贝值与最小、平均、峰值和百分位。支持横屏、主题配色与纸质滤镜。设置页含应用与品牌信息。仅在测量时使用麦克风。读数适合日常参考，不能替代实验室校准设备。",
+    "en": "Paper-style UI with live dB, min, avg, peak and percentiles. Landscape layout, color themes and paper texture. Settings include app and brand info. The microphone is used only while measuring. Treat readings as a useful estimate, not lab-grade calibration."
+  },
+  "highlights": {
+    "zh": [
+      "纸面表盘与可换主题配色",
+      "实时分贝与 P50 / P90 / P95",
+      "设置含应用与品牌信息，无广告、历史仅存本机"
+    ],
+    "en": [
+      "Paper-style dial with color themes",
+      "Live dB plus P50 / P90 / P95",
+      "Settings with app & brand info; no ads, history on device"
+    ]
+  },
+  "iconUrl": "/products/db-meter-caju/icon.png",
+  "screenshots": [
+    "/products/db-meter-caju/screen-1.png",
+    "/products/db-meter-caju/screen-2.png",
+    "/products/db-meter-caju/screen-3.png"
+  ],
+  "privacyUrl": "https://cute-satsuma.github.io/privacy/db-meter-caju/",
+  "landingUrl": "https://cute-satsuma.github.io/decibel_meter/",
+  "githubUrl": "https://github.com/Cute-Satsuma/decibel_meter",
+  "platforms": [
+    {
+      "platform": "web",
+      "version": "2.0.0",
+      "webUrl": "https://cute-satsuma.github.io/decibel_meter/app/"
+    },
+    {
+      "platform": "android",
+      "version": "2.0.0",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.bytemyth.decibel_meter",
+      "downloadUrl": "https://github.com/Cute-Satsuma/decibel_meter/releases/latest/download/db-meter-caju-android.apk"
+    },
+    {
+      "platform": "ios",
+      "version": "2.0.0",
+      "storeUrl": "https://apps.apple.com/app/id6804912429"
+    },
+    {
+      "platform": "macos",
+      "version": "2.0.0",
+      "downloadUrl": "https://github.com/Cute-Satsuma/decibel_meter/releases/latest/download/db-meter-caju-macos.dmg"
+    },
+    {
+      "platform": "windows",
+      "version": "2.0.0",
+      "downloadUrl": "https://github.com/Cute-Satsuma/decibel_meter/releases/latest/download/db-meter-caju-windows.exe"
+    }
+  ]
+}
