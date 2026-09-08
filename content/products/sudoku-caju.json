@@ -4,27 +4,27 @@
   "sort": 2,
   "category": "game",
   "name": {
-    "zh": "数独 Caju",
-    "en": "Sudoku Caju"
+    "zh": "数独",
+    "en": "Sudoku"
   },
   "tagline": {
-    "zh": "单机数独，进度留在本机。",
-    "en": "A single-player sudoku. Progress stays on your device."
+    "zh": "经典九宫数独：离线练习、999 关闯关、笔记与提示。",
+    "en": "Classic 9×9 Sudoku: offline practice, 999-level campaign, notes and hints."
   },
   "description": {
-    "zh": "核心玩法在设备本地完成。当前版本不需要账号，也不会为了运行游戏去收集姓名或电话。",
-    "en": "Core play runs on your device. This version does not require an account and does not collect your name or phone number to run the game."
+    "zh": "数独是一款可离线玩的九宫格数字益智游戏。自由模式简单到困难随时出题，另有 999 关闯关。笔记、宫列行提示和主题都在本机完成，不需要账号。",
+    "en": "Classic 9×9 Sudoku you can play offline. Play easy to hard boards anytime, or a 999-level campaign. Notes, optional box/column/row hints and themes stay on your device. No account required."
   },
   "highlights": {
     "zh": [
-      "单机解谜",
-      "进度默认只存在本机",
-      "不需要账号"
+      "离线九宫数独，简单到困难",
+      "999 关闯关，进度只存在本机",
+      "笔记、提示与主题，不需要账号"
     ],
     "en": [
-      "Single-player puzzles",
-      "Progress stays on the device by default",
-      "No account required"
+      "Offline 9×9 Sudoku, easy to hard",
+      "999-level campaign, progress on this device",
+      "Notes, hints and themes, no account"
     ]
   },
   "iconUrl": "/products/sudoku-caju/icon.png",
@@ -37,14 +37,19 @@
   "platforms": [
     {
       "platform": "web",
-      "version": "1.0.2",
+      "version": "1.0.0",
       "webUrl": "https://cute-satsuma.github.io/game_sudoku/app/"
     },
     {
       "platform": "android",
-      "version": "1.2.1",
+      "version": "1.1.1",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.bytemyth.game_sudoku",
       "downloadUrl": "https://github.com/Cute-Satsuma/game_sudoku/releases/latest/download/sudoku-caju-android.apk"
+    },
+    {
+      "platform": "ios",
+      "version": "1.1.1",
+      "storeUrl": "https://apps.apple.com/app/id6808146643"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "sort": 1,
   "category": "tool",
   "name": {
-    "zh": "分贝仪 Caju",
-    "en": "dB Meter Caju"
+    "zh": "分贝仪",
+    "en": "Sound Meter"
   },
   "tagline": {
-    "zh": "测环境噪音的分贝仪与噪音计。",
-    "en": "A sound meter for everyday noise in dB."
+    "zh": "测环境噪音的分贝仪、噪音计与噪音检测。",
+    "en": "A sound meter, decibel meter and noise detector."
   },
   "description": {
     "zh": "纸面风格界面，实时显示分贝值与最小、平均、峰值和百分位。支持横屏、主题配色与纸质滤镜。设置页含应用与品牌信息。仅在测量时使用麦克风。读数适合日常参考，不能替代实验室校准设备。",
@@ -44,13 +44,13 @@
     },
     {
       "platform": "android",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.bytemyth.decibel_meter",
       "downloadUrl": "https://github.com/Cute-Satsuma/decibel_meter/releases/latest/download/db-meter-caju-android.apk"
     },
     {
       "platform": "ios",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "storeUrl": "https://apps.apple.com/app/id6804912429"
     },
     {

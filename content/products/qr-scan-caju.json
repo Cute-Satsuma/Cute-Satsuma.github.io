@@ -4,11 +4,11 @@
   "sort": 3,
   "category": "tool",
   "name": {
-    "zh": "扫码 Caju",
-    "en": "QR Scan Caju"
+    "zh": "扫一扫",
+    "en": "QR Scanner"
   },
   "tagline": {
-    "zh": "扫码、识码、生成二维码。",
+    "zh": "扫一扫、识码、生成二维码。",
     "en": "Scan QR and barcodes, or create a code."
   },
   "description": {
