@@ -3,8 +3,8 @@
     "slug": "db-meter-caju",
     "productSlug": "db-meter-caju",
     "title": {
-      "zh": "分贝仪 Caju 隐私政策",
-      "en": "dB Meter Caju Privacy Policy"
+      "zh": "分贝仪隐私政策",
+      "en": "Sound Meter Privacy Policy"
     },
     "updated": {
       "zh": "2026年2月1日",
@@ -15,8 +15,8 @@
     "slug": "sudoku-caju",
     "productSlug": "sudoku-caju",
     "title": {
-      "zh": "数独 Caju 隐私政策",
-      "en": "Sudoku Caju Privacy Policy"
+      "zh": "数独隐私政策",
+      "en": "Sudoku Privacy Policy"
     },
     "updated": {
       "zh": "2026年9月8日",
@@ -27,8 +27,8 @@
     "slug": "qr-scan-caju",
     "productSlug": "qr-scan-caju",
     "title": {
-      "zh": "扫码 Caju 隐私政策",
-      "en": "QR Scan Caju Privacy Policy"
+      "zh": "扫一扫隐私政策",
+      "en": "QR Scanner Privacy Policy"
     },
     "updated": {
       "zh": "2026年8月23日",
@@ -38,8 +38,8 @@
   {
     "slug": "gms-installer",
     "title": {
-      "zh": "谷歌框架 Caju 隐私政策",
-      "en": "GMS Caju Privacy Policy"
+      "zh": "谷歌框架隐私政策",
+      "en": "GMS Privacy Policy"
     },
     "updated": {
       "zh": "2026年9月1日",
@@ -49,8 +49,8 @@
   {
     "slug": "proxy-caju",
     "title": {
-      "zh": "代理 Caju 隐私政策",
-      "en": "Proxy Caju Privacy Policy"
+      "zh": "代理隐私政策",
+      "en": "Proxy Privacy Policy"
     },
     "updated": {
       "zh": "2026年9月1日",
