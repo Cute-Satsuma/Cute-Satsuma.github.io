@@ -60,8 +60,8 @@ export const copy = {
     en: "We make small, restrained tools that stay easy to read. Claims stay factual. No laboratory-grade promises.",
   },
   aboutP3: {
-    zh: "应用名把功能词放前面、Caju 放后面，例如分贝仪 Caju、数独 Caju、扫码 Caju。",
-    en: "App names put the function first and Caju last: dB Meter Caju, Sudoku Caju, QR Scan Caju.",
+    zh: "应用显示名称只使用功能词，例如分贝仪、数独、扫一扫；Caju 是工作室品牌，不作为应用名后缀。",
+    en: "App display names use only the function name, such as Sound Meter, Sudoku, and QR Scanner. Caju remains the studio brand, not an app-name suffix.",
   },
   privacyTitle: { zh: "门户隐私说明", en: "Portal privacy" },
   privacyP1: {
