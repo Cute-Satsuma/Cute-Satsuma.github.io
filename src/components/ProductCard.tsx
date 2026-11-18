@@ -165,7 +165,9 @@ export function PlatformCtas({
                     className="text-caju"
                   />
                 ) : null}
-                {release.platform === "macos" && release.downloadUrl ? (
+                {release.platform === "macos" &&
+                release.downloadUrl &&
+                release.notarized !== true ? (
                   <T
                     zh={copy.macosGatekeeper.zh}
                     en={copy.macosGatekeeper.en}

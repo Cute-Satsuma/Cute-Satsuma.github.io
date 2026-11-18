@@ -22,6 +22,7 @@ export type PlatformRelease = {
   storeUrl?: string;
   webUrl?: string;
   downloadUrl?: string;
+  notarized?: boolean;
 };
 
 export type Product = {

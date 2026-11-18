@@ -36,6 +36,7 @@
     {
       "platform": "macos",
       "version": "1.0.32",
+      "notarized": true,
       "downloadUrl": "https://github.com/Cute-Satsuma/shadowmi-releases/releases/latest/download/shadowmi-macos.dmg"
     }
   ]
