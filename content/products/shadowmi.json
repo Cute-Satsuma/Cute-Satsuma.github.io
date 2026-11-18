@@ -1,0 +1,42 @@
+{
+  "slug": "shadowmi",
+  "published": true,
+  "sort": 4,
+  "category": "tool",
+  "name": {
+    "zh": "shadowmi",
+    "en": "shadowmi"
+  },
+  "tagline": {
+    "zh": "清晰掌控 Mac 上的代理连接。",
+    "en": "Take control of proxy connections on your Mac."
+  },
+  "description": {
+    "zh": "面向 macOS 的代理客户端，支持订阅导入、节点选择和实时流量。提供规则、全局、直连三种模式及详细说明，使用系统 VPN 扩展建立连接。应用不提供代理节点或订阅服务。",
+    "en": "A macOS proxy client with subscription import, proxy selection and live traffic. Choose Rule, Global or Direct mode with clear explanations, and connect through a system VPN extension. Proxy servers and subscriptions are not included."
+  },
+  "highlights": {
+    "zh": [
+      "规则、全局、直连模式",
+      "实时流量与节点选择",
+      "Apple Silicon 与 Intel 通用安装包",
+      "已通过 Apple 公证；首次连接需允许网络扩展与 VPN 配置"
+    ],
+    "en": [
+      "Rule, Global and Direct modes",
+      "Live traffic and proxy selection",
+      "Universal installer for Apple Silicon and Intel",
+      "Apple notarized; allow the network extension and VPN configuration on first connection"
+    ]
+  },
+  "iconUrl": "/products/shadowmi/icon.png",
+  "screenshots": [],
+  "githubUrl": "https://github.com/Cute-Satsuma/shadowmi-releases",
+  "platforms": [
+    {
+      "platform": "macos",
+      "version": "1.0.32",
+      "downloadUrl": "https://github.com/Cute-Satsuma/shadowmi-releases/releases/latest/download/shadowmi-macos.dmg"
+    }
+  ]
+}
